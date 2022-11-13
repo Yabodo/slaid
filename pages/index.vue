@@ -168,7 +168,7 @@ import { ref, computed } from 'vue'
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Päästame oma
         <br class="hidden lg:inline-block">tuhmuvad mälestused
       </h1>
-      <p class="mb-8 leading-relaxed">Kas teadsid, et VHS kassettide keskmine eluiga jääb etc Banh mi cornhole echo park skateboard authentic crucifix neutra tilde lyft biodiesel artisan direct trade mumblecore 3 wolf moon twee Banh mi cornhole echo park skateboard authentic crucifix neutra tilde lyft biodiesel artisan direct trade mumblecore 3 wolf moon twee</p>
+      <p class="mb-8 leading-relaxed">Kas teadsid, et VHS kassettide elueaks lubatakse tootjate poolt 10-15 aastat? Ajaga kahjustuvad kassettide magnetribad, mille tulemusena videokvaliteet langeb. Esimesi fotosid suudeti teha juba peaaegu 200 aastat tagasi, mis tähendab, et majapidamistes võib olla fotonegatiive, -positiive, slaide, paberfotosid ja muid andmekandjaid, millele on jäädvustatud meie esivanemate nooruspõlve hetki. Digitaliseerimine ja korrektne arhiveerimine suudab need mälestused igaveseks jäädvustada. Tee kingitus endale, oma lastele ja lähedastele, ning veendu, et mälestused saaksid korralikult arhiveeritud.</p>
       <div class="flex justify-center">
         <a href="#order">
           <button  class="flex ml-auto h-fit text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
