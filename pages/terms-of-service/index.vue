@@ -1,4 +1,7 @@
 <template>
+    <Navigation />
+    <h1 class="text-3xl font-medium title-font text-gray-900 text-center">Kasutustingimused</h1>
+    <div class="w-full p-10 md:w-1/2 mx-auto">
     Veebipoe ABCD.EE (edaspidi Veebipood) omanik on OÜ_________ (registrikood__________),
 Asukohaga__________.
 Müügilepingu kehtivus, kauba- ja hinnainfo
@@ -85,4 +88,6 @@ Tarbijavaidluste komisjoni poole. Menetlustingimustega saab tutvuda ning avaldus
 Tarbijavaidluste komisjoni pädevuses on lahendada ostja ja Veebipoe vahel sõlmitud lepingust
 tulenevaid vaidlusi. Ostja kaebuse läbivaatamine komisjonis on tasuta.
 Ostja võib pöörduda Euroopa Liidu tarbijavaidlusi lahendava platvormi poole.
+    </div>
+<BottomNavigation />
 </template>

@@ -181,7 +181,7 @@ import { ref, computed } from 'vue'
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" :src="`img/${'hero'}.png`">
+      <img class="object-cover object-center rounded" alt="hero" :src="`img/${'hero-1440x1200'}.png`">
     </div>
   </div>
 </section>
@@ -291,7 +291,7 @@ import { ref, computed } from 'vue'
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Levinud küsimused</h1>
       <div class="flex flex-wrap pt-8 text-left border-t border-gray-200">
-        <div v-for="(faq, i) in questions" :id="i" class="mb-10 w-1/2">
+        <div v-for="(faq, i) in questions" :key="i" class="mb-10 w-1/2">
           <div class="mx-4">
             <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
                 <svg class="mr-2 w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
@@ -319,38 +319,7 @@ import { ref, computed } from 'vue'
   </div>
 </section>
 
-<footer class="text-gray-600 body-font">
-  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <SlaidLogo />
-    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© {{ date }} Kaspar Jõeveer —
-      <a href="https://linkedin.com/in/bizi" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@bizi</a>
-    </p>
-    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-      <a class="text-gray-500">
-        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;">
-          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-        </svg>
-      </a>
-      <a class="ml-3 text-gray-500">
-        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;">
-          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-        </svg>
-      </a>
-      <a class="ml-3 text-gray-500">
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
-          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-        </svg>
-      </a>
-      <a class="ml-3 text-gray-500">
-        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:currentColor; --darkreader-inline-stroke:currentColor;">
-          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:none;"></path>
-          <circle cx="4" cy="4" r="2" stroke="none" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:none;"></circle>
-        </svg>
-      </a>
-    </span>
-  </div>
-</footer>
+<BottomNavigation />
 
 </div>
 </template>
