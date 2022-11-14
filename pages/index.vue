@@ -275,10 +275,10 @@ import { ref, computed } from 'vue'
           </svg>
           <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
           <a class="inline-flex items-center">
-            <img alt="testimonial" :src="`img/${'Alex-156x156'}.png`" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+            <img alt="testimonial" :src="`img/${'s2m-156x156'}.png`" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
             <span class="flex-grow flex flex-col pl-4">
-              <span class="title-font font-medium text-gray-900">Alex Aus</span>
-              <span class="text-gray-500 text-sm">Ettevõtja & suunamudija</span>
+              <span class="title-font font-medium text-gray-900">säm</span>
+              <span class="text-gray-500 text-sm">Muusik & suunamudija</span>
             </span>
           </a>
         </div>
