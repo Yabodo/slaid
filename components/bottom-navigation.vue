@@ -13,10 +13,10 @@ const date = ref(new Date().getFullYear())
     </p>
     <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <div class="sm:border-r-2 sm:border-gray-200 md:pr-4 ">
-        <a href="privacy-policy" class="first-letter:underline underline-offset-[-3px] text-gray-500 pr-2">
+        <a href="/privacy-policy" class="first-letter:underline underline-offset-[-3px] text-gray-500 pr-2">
           Privaatsussätted
         </a>
-        <a href="terms-of-service" class="first-letter:underline underline-offset-[-3px] text-gray-500">
+        <a href="/terms-of-service" class="first-letter:underline underline-offset-[-3px] text-gray-500">
           Kasutustingimused
         </a>
       </div>

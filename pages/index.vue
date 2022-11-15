@@ -3,6 +3,38 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 
+  
+    
+useHead({
+  title: 'Slaid - Arhiveerimine & Digitaliseerimine',
+  meta: [
+    { name: 'og:title', content: 'Slaid - Arhiveerimine & Digitaliseerimine' },
+    { name: 'og:site_name', content: 'Slaid.ee' },
+    { name: 'og:locale', content: 'et_EE' },
+    // { name: 'og:locale:alternative', content: '' },
+    { name: 'og:url', content: 'https://slaid.ee' },
+    { name: 'og:type', content: 'article' }, // website
+    { name: 'og:description', content: 'Slaid.ee pakub professionaalsel tasemel videokonversiooni, digitaliseerimise ja arhiveerimise teenuseid.' },
+    { name: 'description', content: '' },
+    { name: 'og:image', content: '' },
+    { name: 'og:image:secure_url', content: '' },
+    { name: 'og:image:type', content: '' },
+    { name: 'og:image:width', content: '1200' },
+    { name: 'og:image:height', content: '627' },
+    { name: 'article:published_time', content: '' },
+    { name: 'article:author', content: '' },
+    { name: 'article:section', content: '' },
+    { name: 'article:tag', content: '' },
+    { name: 'google-site-verification', content: '' },
+    { name: 'robots', content: 'nofollow,noindex' }, //TBR ---
+    { name: 'rating', content: '' },
+  ],
+  bodyAttrs: {
+    class: 'test'
+  },
+  //script: [ { children: 'console.log(\'Hello world\')' } ]
+})
+
 
   const client = useSupabaseClient()
   async function createOrder() {
