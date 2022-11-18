@@ -100,7 +100,7 @@ let articles = ref([
                 name: "Ajalugu"
             },
         ],
-        title: "VHS-i põnev ajalugu",
+        title: "VHS-i ajalugu",
         description: "Enamik meist teab, mis tunne oli videot kassettidelt vaadata, kuid vähem teatakse, kuidas saavutasid videokassetid säärase populaarsuse. Kuigi nüüdseks on VHS-i hiilgeaeg läbi, toovad mälestused kassettidest siiski naeratuse suule.",
         cta: "Loe edasi",
         href: "vhs-vcr-history",
