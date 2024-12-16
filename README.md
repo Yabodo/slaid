@@ -29,7 +29,7 @@ Visit [slaid.vercel.app](https://slaid.vercel.app)
 
 1. Clone the repository
 
-git clone https://github.com/yourusername/slaid.git
+git clone https://github.com/Yabodo/slaid.git
 
 2. Install dependencies
 
@@ -81,4 +81,4 @@ This project is licensed under the Proprietary License. All rights reserved. Una
 
 Kaspar Jõeveer - [@bizi](https://linkedin.com/in/bizi)
 
-Project Link: [https://github.com/yourusername/slaid](https://github.com/yourusername/slaid)
+Project Link: [https://github.com/Yabodo/slaid](https://github.com/Yabodo/slaid)
