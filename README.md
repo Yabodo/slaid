@@ -2,8 +2,6 @@
 
 Digital archiving and preservation service built with Nuxt 3.
 
-![Slaid Screenshot](public/img/hero-1440x1200.png)
-
 ## 🌐 Live Demo
 
 Visit [slaid.vercel.app](https://slaid.vercel.app)
